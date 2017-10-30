@@ -10,39 +10,41 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-	<h1>Crystal Collector</h1>
+	<div id="main-content">
+		<h1>Crystal Collector</h1>
 
-	<div id="instructions-container">
-		<h2 id="instructions-title">Instructions:</h2>
-		<ol>
-			<li>At the beginning of each game, a random target number is generated.</li>
-			<li>The goal of the game is to make your score exactly equal to the target number.</li>
-			<li>You can increase your score by clicking on any of the 4 crystals.</li>
-			<li>Each crystal will increase your score by a different amount.</li>
-			<li>The amount by which each crystal increases your score is randomly generated at the start of each game.</li>
-			<li>If your score exceeds the target number, you will lose.</li>
-		</ol>
-	</div>
-	
-	<div id="target-div">
-		<p><span id="target-title">Target Number: </span><span id="target-number"></span></p>
-	</div>
+		<div id="instructions-div">
+			<h2 id="instructions-title">Instructions:</h2>
+			<ul>
+				<li>At the beginning of each game, a random target number is generated.</li>
+				<li>The goal of the game is to make your score exactly equal to the target number.</li>
+				<li>You can increase your score by clicking on any of the 4 crystals.</li>
+				<li>Each crystal will increase your score by a different amount.</li>
+				<li>The amount by which each crystal increases your score is randomly generated at the start of each game.</li>
+				<li>If your score exceeds the target number, you will lose.</li>
+			</ul>
+		</div>
+		
+		<div id="target-div">
+			<p><span id="target-title">Target Number: </span><span id="target-number"></span></p>
+		</div>
 
-	<div id="score-div">
-		<p id="score">Score: <span>0</span></p>
-	</div>
+		<div id="score-div">
+			<p id="score">Score: <span>0</span></p>
+		</div>
 
-	<div id="buttons">
-		<img class="crystal-button" id="crystal-0" src="./assets/images/topaz.png" alt="Topaz">
-		<img class="crystal-button" id="crystal-1" src="./assets/images/amethyst.png" alt="Amethyst">
-		<img class="crystal-button" id="crystal-2" src="./assets/images/ruby.png" alt="Ruby">
-		<img class="crystal-button" id="crystal-3" src="./assets/images/sapphire.png" alt="Sapphire">
-	</div>
+		<div id="buttons">
+			<img class="crystal-button" id="crystal-0" src="./assets/images/topaz.png" alt="Topaz">
+			<img class="crystal-button" id="crystal-1" src="./assets/images/amethyst.png" alt="Amethyst">
+			<img class="crystal-button" id="crystal-2" src="./assets/images/ruby.png" alt="Ruby">
+			<img class="crystal-button" id="crystal-3" src="./assets/images/sapphire.png" alt="Sapphire">
+		</div>
 
-	<div id="stats-div">
-		<h3 id="stats-title">Stats</h3>
-		<p class="win-loss">Wins: <span id="wins"></span></p>
-		<p class="win-loss">Losses: <span id="losses"></span></p>
+		<div id="stats-div">
+			<h3 id="stats-title">Stats:</h3>
+			<p class="win-loss">Wins: <span id="wins"></span></p>
+			<p class="win-loss">Losses: <span id="losses"></span></p>
+		</div>
 	</div>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

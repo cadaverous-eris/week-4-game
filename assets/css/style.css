@@ -1,3 +1,110 @@
 body {
 	background-image: url("../images/escheresque_2x.png");
 }
+
+#main-content {
+	width: 960px;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 600;
+	padding: 10px;
+	margin: 10px;
+	background-color: #22d6b5;
+	font-size: 36px;
+	border: solid;
+	border-color: #21ba9e;
+	border-width: 2px;
+}
+
+#instructions-div {
+	background-color: #38f7d4;
+	padding: 10px;
+	margin: 10px;
+	border: solid;
+	border-color: #22d6b5;
+	border-width: 2px;
+}
+
+#instructions-title {
+	font-size: 24px;
+	text-decoration: underline;
+	padding: 0px 5px 5px 5px;
+}
+
+ul {
+	list-style: disc inside;
+}
+
+#target-div {
+	float: left;
+	width: 45%;
+	background-color: #38f7d4;
+	padding: 10px;
+	margin: 10px;
+	border: solid;
+	border-color: #22d6b5;
+	border-width: 2px;
+	font-size: 18px;
+}
+
+#score-div {
+	float: right;
+	width: 45%;
+	background-color: #38f7d4;
+	padding: 10px;
+	margin: 10px;
+	border: solid;
+	border-color: #22d6b5;
+	border-width: 2px;
+	font-size: 18px;
+}
+
+#buttons {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 10px 0px;
+}
+
+.crystal-button {
+	float: left;
+	width: 220px;
+	height: 220px;
+	margin: 0px;
+	padding: 10px;
+
+	image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.crystal-button:hover {
+	width: 240px;
+	height: 240px;
+	padding: 0px;
+}
+
+#stats-div {
+	float: left;
+	width: 25%;
+	background-color: #38f7d4;
+	padding: 10px;
+	margin: 10px;
+	border: solid;
+	border-color: #22d6b5;
+	border-width: 2px;
+}
+
+#stats-title {
+	font-size: 20px;
+	text-decoration: underline;
+	padding: 0px 5px 5px 5px;
+}
